@@ -14,7 +14,6 @@
 
         <link rel="icon" href="">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/navbar-static-top.css">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
         
@@ -183,35 +182,6 @@
         <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="./js/jquery.min.js"><\/script>')</script>
         <script src="./js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-              var trigger = $('.hamburger'),
-                  overlay = $('.overlay'),
-                 isClosed = false;
-    
-                trigger.click(function () {
-                  hamburger_cross();      
-                });
-    
-                function hamburger_cross() {
-    
-                  if (isClosed == true) {          
-                    overlay.hide();
-                    trigger.removeClass('is-open');
-                    trigger.addClass('is-closed');
-                    isClosed = false;
-                  } else {   
-                    overlay.show();
-                    trigger.removeClass('is-closed');
-                    trigger.addClass('is-open');
-                    isClosed = true;
-                  }
-              }
-              
-              $('[data-toggle="offcanvas"]').click(function () {
-                    $('#wrapper').toggleClass('toggled');
-              });  
-            });
-        </script>
+        <script src="./js/sidebar.js"></script>
     </body>
 </html>

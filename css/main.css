@@ -129,7 +129,7 @@ html {
     z-index: 1000;
 }
 #sidebar-wrapper::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
 }
 #page-content-wrapper {
     padding-top: 100px;
