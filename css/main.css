@@ -132,8 +132,10 @@ html {
     /* display: none; */
 }
 #page-content-wrapper {
-    padding-top: 100px;
     width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    position: relative;
     z-index: 0;
 }
 /*-------------------------------*/
