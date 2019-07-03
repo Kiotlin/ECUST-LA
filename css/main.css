@@ -580,6 +580,94 @@ html {
 .u-marginT20 {
     margin-top: 50px;
 }
+/*--------↑↑↑↑↑↑↑ OLD VERSION ↑↑↑↑↑↑↑--------*/
+/*--------↓↓↓↓↓↓↓ NEW VERSION ↓↓↓↓↓↓↓--------*/
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+#left_wrap_ver1{
+    width: 21.2121212121%;
+    margin: 0 1.89393939394%;
+    float: left;
+}
+#left_wrap_ver1 a{
+    text-decoration-line: none;
+    line-height: 25px;
+}
+#right_wrap_ver1{
+    width: 75%;
+    float: right;
+    margin-bottom: 10px;
+}
+#post_3 {
+    width: 28.2828282828%;
+    margin: 0 2.52525252525%;
+    height: 340px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+#small_thumb {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    overflow: hidden;
+    display: block;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    background-color: #f5f5f5;
+}
+#bgwrap_small {
+    width: 100%;
+    height: 180px;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    overflow: visible;
+}
+#bg_small {
+    width: 100%;
+    height: 180px;
+    float: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#post_3_data {
+    width: 100%;
+    position: relative;
+}
+.post_3_ttl {
+    width: 100%;
+    margin-bottom: 7px;
+}
+.post_3_ttl a {
+    width: 100%;
+    border-bottom: 0px solid;
+    font-family: 'WalsheimBold';
+    font-size: 20px;
+}
 /*-------------------------------*/
 /*            footer             */
 /*-------------------------------*/
