@@ -1,10 +1,10 @@
 #post_1 {
-    width: 96%;
+    width: 90%;
     height: auto;
     overflow: hidden;
     position: relative;
     float: left;
-    margin: 0 2%;
+    margin: 0 5%;
     margin-bottom: 60px;
 }
 #bgwrap{
@@ -50,14 +50,14 @@
     font-size: 20px;
 }
 #left_wrap_ver2 {
-    width: 45.2121212121%;
-    margin: 0 1.89393939394%;
+    width: 40%;
+    margin: 0 5%;
     float: left;
     padding-bottom: 70px;
 }
 #right_wrap_ver2 {
-    width: 45%;
-    margin: 0 1.89393939394%;
+    width: 40%;
+    margin: 0 5%;
     float: right;
     padding-bottom: 70px;
 }

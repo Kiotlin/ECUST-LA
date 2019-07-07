@@ -1,7 +1,9 @@
 <?php
 class Articles extends CI_Controller {
 
-    public function index(){
+    public function __constract(){
+        parent::__construct();
+        
     }
 
     public function story(){
@@ -10,8 +12,9 @@ class Articles extends CI_Controller {
             show_404();
         }
 
+        $this->load->helper('html');
         $data['title'] = "Story | EL";
-        $data['link'] ="";
+        $data['link'] = link_tag('public/css/story.css');
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/story');
@@ -24,8 +27,9 @@ class Articles extends CI_Controller {
             show_404();
         }
 
+        $this->load->helper('html');
         $data['title'] = "Academy | EL";
-        $data['link'] ="";
+        $data['link'] = link_tag('public/css/academy.css');
         
         $this->load->view('templates/header', $data);
         $this->load->view('pages/academy');
