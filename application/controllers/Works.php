@@ -7,7 +7,9 @@ class Works extends CI_Controller {
             show_404();
         }
 
+        $this->load->helper('html');
         $data['title'] = "Works | EL";
+        $data['link'] = link_tag('public/css/works.css');
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/works');

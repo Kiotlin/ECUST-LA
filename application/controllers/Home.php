@@ -8,6 +8,7 @@ class Home extends CI_Controller {
         }
 
         $data['title'] = "Home | EL";
+        $data['link'] = "";
         
         $this->load->view('templates/header', $data);
         $this->load->view('pages/home');
