@@ -1,0 +1,60 @@
+#left_wrap_ver3 {
+    width: 44%;
+    height: 500px;
+    margin: 5% 1% 0 10%;
+    float: left;
+}
+#right_wrap_ver3 {
+    width: 34%;
+    height: auto;
+    margin: 5% 10% 3% 1%;
+    float: right;
+}
+#scroll_box {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#scroll {
+    overflow-y: auto;
+    height: 100%;
+    width: calc(100% + 20px);
+}
+#pic_de_wrap {
+    width: 100%;
+    height: 410px;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+#pic_ {
+    width: 100%;
+    height: 410px;
+    float: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: #797676;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+#pic_content {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#pic_info {
+    width: 100%;
+    height:auto;
+}
+#pic_info h2{
+    margin-top: 0;
+}

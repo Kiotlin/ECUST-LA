@@ -715,10 +715,18 @@ a {
     width: 21.2121212121%;
     margin: 0 5%;
     float: left;
+    display: flex;
+    flex-direction: column;
 }
 #left_wrap_ver1 a{
     text-decoration-line: none;
-    line-height: 25px;
+    line-height: 5px;
+}
+.split_line_row {
+    width: 150px;
+    border-top: 1px solid #000000;
+    float: left;
+    padding-bottom: 30px;
 }
 #right_wrap_ver1{
     width: 60%;
